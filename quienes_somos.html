@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -58,18 +59,15 @@
         <img src="logo.jpeg" alt="Logo Akuma">
         <ul class="navegacion">
             <li><a href="/templates/Inicio.html" class="nav-link">Inicio</a></li>
-            <li><a href="quienes_somos.html" class="nav-link">Quienes somos</a></li>
-            <li><a href="#Nuestros trabajos" class="nav-link">Nuestros trabajos</a></li>
+            <li><a href="/templates/quienes_somos.html" class="nav-link">Quienes somos</a></li>
+            <li><a href="/templates/trabajos.html" class="nav-link">Nuestros trabajos</a></li>
             <li><a href="/templates/form2.html" class="nav-link">Contacto</a></li>
-          </ul>
+        </ul>
        </nav>
-
-    
-
     </header>
     <!-- Sección Quienes somos -->
     <main>
-      <section class="grid_container">
+      <section class="intro-container">
         <div class="box1">
           <h2 class="presentacion">¡Bienvenido a nuestra página web de impresiones 3D en Argentina!</h2>
         </div>
@@ -85,25 +83,25 @@
           </p>
         </div>
         <div class="box3">
-          <h2 class="ubicacion">¿Donde nos ubicamos?</h2>
+          <h2 class="ubicacion">¿Dónde nos ubicamos?</h2>
          
         </div>
         <div class="box4">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repellendus blanditiis asperiores eveniet, placeat, modi voluptate accusamus 
-            architecto excepturi deserunt neque a perferendis eius non eligendi inventore reiciendis accusantium veniam.</p>
+          <p>Estamos ubicados en Buenos Aires, cerca del supermercado San Martín, horario de atención de 8 a 13 y de 18 a 21. Los esperamos!</p>
         
           <div id="map">
               <!-- Ubicacion del mapa -->
           </div>
         </div>
       </section>
-        <div class="box5">
-          <h2>Nosotros</h2>
-        </div>
-      
+      <section class="cartas-container">
         <div class="gap">
+          <div class="box5">
+            <h2>Nosotros</h2>
+          </div>
           <div class="box6 card">
-             <img  class="icono_man" src="icono man.png" alt="Icono Lauti">
+            <h3>Lauta</h3>
+            <img  class="icono_man" src="icono man.png" alt="Icono Lauti">
               <p>Python dev. Estudiante de Ciencia de la Computacion y Data Science.</p>
               <div class="link">
                 <a class="github_linke"  href="https://github.com/L-Novelli/"><i class="bi bi-github"></i></a>
@@ -136,21 +134,21 @@
           <div class="box9 card">
             <h3>Flor</h3>
             <img class="icono_m" src="icono mujer.png" alt="Icono Flor">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum libero voluptatem quod ullam nulla dolorum delectus.
-             Quaerat voluptates inventore modi sit, sint vitae optio quia quibusdam impedit velit maxime! Unde?</p>
+            <p>Ingeniera hidraulica, especialista en analisis de datos y estudiante de python full stack en CaC</p>
             <div class="link">
               <a class="github_linke"  href="https://github.com/hidalgoflorencia"><i class="bi bi-github"></i></a>
               <a class="github_linke"  href="https://github.com/hidalgoflorencia"><i class="bi bi-linkedin"></i></a>
             </div>
-            
         </div>
-      </div>
+      </section>
+      
+        
      
-    </main>
+  </main>
      <!--    JavaScript    -->
      <script src="api.js"></script>
      <!-- API Goolge Maps -->
-     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAj1hLz6XVA0yyKQO1yeofk87myift0264&callback=initMap"></script>
+     <script async defer src="https://maps.googleapis.com/maps/apijs?key=AIzaSyAj1hLz6XVA0yyKQO1yeofk87myift0264&callback=initMap"></script>
 
 
      <!-- Sección de redes sociales -->
@@ -163,10 +161,11 @@
         <a href="https://www.instagram.com/akuma.ar/" target="_blank"
           ><img src="linkedin.png" alt="Linkedin" loading="lazy" class="socicon"/></a>
         <a href="#" target="_blank"
-          ><img src="github.png" alt="Github" class="socicon"/></a>
+          ><img src="github.png " alt="Github" class="socicon"/></a>
+    
 
       
-      </footer>
+    </footer>
 
   </body>
 </html>
